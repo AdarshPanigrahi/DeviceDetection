@@ -3,4 +3,16 @@
   "extends": [
     "config:base"
   ]
+  "packageRules": [
+    {
+      "packageNames": [
+        "nl.basjes.parse.useragent"
+      ],
+      "automerge": true,
+      "schedule": [
+        "after 5pm and before 6pm",
+        "on Wednesday"
+      ]
+    }
+  ]
 }
